@@ -1,5 +1,27 @@
-# airline_delays_bigdata
-Classification problem; find the optimal model to classify whether we will have departure delay, by using PySpark.
+# Airline Delays Prediction Using PySpark
 
-This project presents a machine learning approach implemented in PySpark to classify whether a flight had delay on departure based on data related with the flight. The objective is to develop an intuitive understanding about the dataset, generate insightful visualizations, and implement a predictive model that can accurately classify whether a flight had a delayed departure. Data processing techniques including data cleaning, encoding and data exploratory analysis were applied to produce processed data sets. A variety of supervised machine learning algorithms were applied to the data which consists of 765 binary columns, including Logistic Regression, Random Forest, Gradient-Boosted Trees as well as Naïve Bayes. Our best performing algorithm (Naïve Bayes) allows us to correctly predict the status of approximately 67% of the flights. The findings of this study can provide valuable insights for airlines to improve their services and enhance passenger satisfaction.
+## Project Overview
+This project employs a machine learning approach using PySpark to classify flight departure delays. It aims to develop a comprehensive understanding of the dataset, create insightful visualizations, and implement predictive models to accurately classify flight delays.
 
+### Research Objectives
+- Develop an intuitive understanding of the flight dataset.
+- Generate visualizations to uncover patterns in flight delays.
+- Implement and evaluate various supervised machine learning algorithms to predict departure delays.
+
+## Dataset
+Data sourced from [Kaggle's Airline Delay and Cancellation Data, 2009 - 2018 Dataset](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
+
+## Methodology
+- **Data Processing**: Includes data cleaning, encoding, and exploratory analysis to prepare the dataset for modeling.
+- **Model Development**: Utilizing Logistic Regression, Random Forest, Gradient-Boosted Trees, and Naïve Bayes algorithms.
+- **Evaluation**: Assessing model performance with a focus on accurately predicting flight delays.
+
+## Results
+Naïve Bayes emerged as the best performing algorithm, accurately predicting the departure status of approximately 67% of flights. The insights gained from this study are valuable for airlines to enhance service quality and passenger satisfaction.
+
+## Limitations and Future Work
+Future research should explore more advanced models and techniques to further improve prediction accuracy and understand the factors influencing flight delays.
+
+## Tools and Technologies
+- **Language**: Python
+- **Framework**: PySpark
